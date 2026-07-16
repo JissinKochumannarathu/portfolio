@@ -2,7 +2,7 @@
 
 A personal portfolio website showcasing my work as a Frontend Developer and Research Assistant at inIT, TH OWL. Built with vanilla HTML, CSS, and JavaScript — no frameworks, no dependencies, just clean code.
 
-**Live:** [jissinkochumannarathu.github.io/portfolio](https://jissinkochumannarathu.github.io/portfolio)
+**Live:** [jissinportfolio.vercel.app](https://jissinportfolio.vercel.app/)
 
 ---
 
@@ -68,14 +68,11 @@ npx serve .
 python -m http.server 8000
 ```
 
-### Deploy to GitHub Pages
+### Deploy to Vercel
 
-The site is automatically deployed via GitHub Pages from the `main` branch. To deploy your own:
+The site is deployed on Vercel with automatic deployments from the `main` branch. Push any change and Vercel rebuilds instantly.
 
-1. Push to the `main` branch
-2. Go to repository Settings → Pages
-3. Set Source to "Deploy from a branch" and select `main` → `/ (root)`
-4. Your site will be live at `https://<username>.github.io/portfolio`
+No build step needed — it's pure static HTML/CSS/JS. Point Vercel (or Netlify, or any static host) at the repository root and you're live.
 
 ---
 
